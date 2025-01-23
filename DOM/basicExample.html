@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My first Dom</title>
+    <style>
+      #notWrapper {
+        height: 200px;
+        width: 300px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        align-content: center;
+      }
+
+      .package {
+        border: 1px solid red;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h2>Shopping list:</h2>
+    <ul class="shopping-list">
+      <li>Ham</li>
+      <li>Eggs</li>
+      <li id="favourite food">Ass</li>
+      <h5>Clock</h5>
+      <div id="timer">0</div>
+    </ul>
+    <script>
+      const favouriteFood = document.getElementById("favourite food");
+      const listElements = document.querySelectorAll(".shopping-list li");
+      console.log(listElements);
+      setTimeout(() => {
+        favouriteFood.textContent = " Burger";
+      }, 300);
+      const timerVal = document.getElementById("timer");
+      let currentTime = 0
+      setInterval(() => {
+       
+       currentTime ++
+       timerVal.textContent = currentTime
+
+      }, 385);
+    </script>
+  </body>
+</html>
