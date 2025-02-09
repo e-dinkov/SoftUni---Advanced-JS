@@ -1,0 +1,16 @@
+{
+  "name": "unit-testing",
+  "version": "1.0.0",
+  "main": "02-ex.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chai": "^5.1.2",
+    "mocha": "^11.1.0"
+  }
+}

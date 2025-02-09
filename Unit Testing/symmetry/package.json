@@ -1,0 +1,12 @@
+{
+  "name": "symmetry",
+  "version": "1.0.0",
+  "main": "symmetry.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

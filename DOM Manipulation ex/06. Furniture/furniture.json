@@ -1,0 +1,15 @@
+[
+    {
+        "img":"https://assets.boconcept.com/b1c0b22e-ef01-4d5b-af4d-ad43018a1f5b/1560164_PNG-Web%2072dpi.png?format=pjpg&auto=webp&fit=bounds&width=3020&quality=75%2C60&height=2265",
+        "name": "Sofa",
+        "price": "259",
+        "decFactor":"0.4"
+
+    },
+    {
+        "img":"https://www.stylespafurniture.com/wp-content/uploads/2020/03/Cove_3_Door_Wardrobe_1.jpg",
+        "name": "Wardrobe",
+        "price": "120",
+        "decFactor":"1.2"
+    }
+]
