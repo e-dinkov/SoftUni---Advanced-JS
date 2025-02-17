@@ -1,0 +1,59 @@
+body{
+    font-size: 32px;
+    font-family: consolas;
+    margin: 0;
+    padding: 0;
+}
+.game-section{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(0deg,rgb(25, 0, 255)0%,
+    rgb(0, 255, 247) 30%,
+    rgb(38, 0, 255) 100%);
+    border-color: red;
+}
+.game-area{
+    
+    height: 90vh;
+    
+    
+}
+.game-start {
+    font-size: 1.5rem;
+    margin: 10px 10px;
+    background-color: chartreuse;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    border-radius: 20px;
+    padding: 20px 40px;
+    cursor: pointer;
+}
+
+.game-start:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+}
+
+ .game-score{
+    background-color: rgb(30, 30, 30,0.5);
+    text-align: center;
+    color:aliceblue;
+    font-size: 40px;
+    position: absolute;
+    width: 100%;
+    
+    
+    
+ }
+
+
+
+
+
+
+
+
+.hidden{
+    display: none;
+}
